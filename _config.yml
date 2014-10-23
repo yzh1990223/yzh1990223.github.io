@@ -9,12 +9,13 @@ wpm:			  200
 dropcap:		  true
 theme:			  blue
 nprogress:        true
-header_bg:        barn.jpg
+header_bg:        stars.jpg
 author_bg:		  newyork.jpg
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:              http://yzh1990223.github.io/
+#url:              http://localhost:4000/
 
 
 # Owner/author information
@@ -77,7 +78,9 @@ kramdown:
 
 prose:
   siteurl: 'http://yzh1990223.github.io'
+#  siteurl: 'http://localhost:4000'
   relativeLinks: 'http://yzh1990223.github.io/links.jsonp'
+#  relativeLinks: 'http://localhost:4000/links.jsonp'
   media: 'images/post'
   metadata:
     _posts:
